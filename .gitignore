@@ -1,0 +1,6 @@
+service_check.py
+variables.json
+data
+*.swp
+*.info
+*.csv

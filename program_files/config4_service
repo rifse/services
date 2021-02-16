@@ -1,0 +1,17 @@
+[Unit]
+# Human readable name of the unit
+Description=CoinData Service
+
+[Service]
+# Command to execute when the service is started
+# Type=simple  <- this is default
+Restart=on-failure
+# Restart=always
+# TimeoutStartSec=0
+# RemainAfterExit=yes
+# KillMode=none  <- this is too extreme
+ExecStart=/home/gasper/environmentsPy/coinService/bin/python3.8 /home/gasper/privat_hetzner/services/coinData_get.py -u
+# Environment=PYTHONUNBUFFERED=1
+[Install] 
+# SO THAT IT IS AUTOMATICALLY STARTED ON REBOOT:
+WantedBy=default.target
