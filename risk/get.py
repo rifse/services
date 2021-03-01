@@ -53,7 +53,7 @@ def get_all(saveRaw=False):
     '''Reads the key and gids for google sheets from variables.json, then
     downloads, crops? and writes risks for all ASSETS into data/rawRisk_ASSET.'''
 
-    VARS = read_variables('variables.json')
+    VARS = read_variables('data/variables.json')
     key = VARS.pop('key')
     for ASSET in VARS:
         new = get_gSheet(key, VARS[ASSET]['gid'])

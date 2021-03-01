@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="sl">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"/>
+  <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+  <title>
+   Zaposlitveni oglasi • FMF
+  </title>
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js">
+  </script>
+  <script>
+   WebFont.load({google: {families: ['EB+Garamond:ital,wght@0,400;0,700;1,400;1,700']}})
+  </script>
+  <style>
+   html.wf-loading * { opacity: 0 }
+  </style>
+  <link href="/static/frontend/main.ff52e17e1b54.css" rel="stylesheet"/>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6">
+  </script>
+  <link href="/static/favicon/apple-icon-57x57.0200f25227be.png" rel="apple-touch-icon" sizes="57x57"/>
+  <link href="/static/favicon/apple-icon-60x60.ef9f38b3eba6.png" rel="apple-touch-icon" sizes="60x60"/>
+  <link href="/static/favicon/apple-icon-72x72.cffa522c0324.png" rel="apple-touch-icon" sizes="72x72"/>
+  <link href="/static/favicon/apple-icon-76x76.a2ab6de3da67.png" rel="apple-touch-icon" sizes="76x76"/>
+  <link href="/static/favicon/apple-icon-114x114.5cfb2eca8906.png" rel="apple-touch-icon" sizes="114x114"/>
+  <link href="/static/favicon/apple-icon-120x120.b0756f1f22ef.png" rel="apple-touch-icon" sizes="120x120"/>
+  <link href="/static/favicon/apple-icon-144x144.029c9bf6927a.png" rel="apple-touch-icon" sizes="144x144"/>
+  <link href="/static/favicon/apple-icon-152x152.d4c491e56c4c.png" rel="apple-touch-icon" sizes="152x152"/>
+  <link href="/static/favicon/apple-icon-180x180.32cbd866d948.png" rel="apple-touch-icon" sizes="180x180"/>
+  <link href="/static/favicon/android-icon-192x192.6a16ad584ab8.png" rel="icon" sizes="192x192" type="image/png"/>
+  <link href="/static/favicon/favicon-32x32.143f6989db7c.png" rel="icon" sizes="32x32" type="image/png"/>
+  <link href="/static/favicon/favicon-96x96.e38f7cfc3c33.png" rel="icon" sizes="96x96" type="image/png"/>
+  <link href="/static/favicon/favicon-16x16.dfc4d25e025c.png" rel="icon" sizes="16x16" type="image/png"/>
+  <link href="/static/favicon/manifest.b58fcfa7628c.json" rel="manifest"/>
+  <meta content="#ffffff" name="msapplication-TileColor"/>
+  <meta content="/static/favicon/ms-icon-144x144.029c9bf6927a.png" name="msapplication-TileImage"/>
+  <meta content="#ffffff" name="theme-color"/>
+  <link href="/sl/obvestila/agregator/rss/161/" rel="alternate" title="Zaposlitveni oglasi" type="application/rss+xml"/>
+ </head>
+ <body class="template--doi">
+  <main>
+   <div class="columns is-gapless content__nav">
+    <div class="column is-8">
+     <nav aria-label="main navigation" class="navbar" role="navigation">
+      <div class="navbar__main">
+       <a aria-expanded="false" aria-label="menu" class="navbar-burger burger" data-target="menuMobile" id="menu-mobile-open" role="button">
+        <span aria-hidden="true">
+        </span>
+        <span aria-hidden="true">
+        </span>
+        <span aria-hidden="true">
+        </span>
+       </a>
+       <div class="navbar__main-items">
+        <a class="navbar__item" href="/sl/studij-fizike/">
+         Študij fizike
+        </a>
+        <a class="navbar__item" href="/sl/studij-matematike/">
+         Študij matematike
+        </a>
+        <a class="navbar__item" href="/sl/raziskave/">
+         Raziskave
+        </a>
+        <a class="navbar__item" href="/sl/o-fakulteti/">
+         O fakulteti
+        </a>
+        <a class="navbar__item navbar__item--language" href="/en/">
+         EN
+        </a>
+       </div>
+      </div>
+      <div class="navbar__tools">
+       <div class="navbar__tools-items">
+        <a class="navbar__item" href="/sl/obvestila/koledar/">
+         Dogodki
+        </a>
+        <a class="navbar__item" href="/sl/obvestila/">
+         Obvestila
+        </a>
+        <a class="navbar__item" href="/sl/imenik/">
+         Imenik
+        </a>
+        <a class="navbar__item" href="https://urnik.fmf.uni-lj.si/">
+         Urniki
+        </a>
+        <a class="navbar__item" href="/sl/knjiznica/">
+         Knjižnica
+        </a>
+        <a class="navbar__item" href="/sl/zalozba/">
+         Založba
+        </a>
+        <a class="navbar__item" href="/sl/sodelavci/">
+         Za sodelavce
+        </a>
+        <a class="navbar__item navbar__item--search" href="/sl/iskanje/">
+         <img alt="Iskanje" src="/static/images/search.6c9017a23160.svg"/>
+        </a>
+       </div>
+      </div>
+     </nav>
+    </div>
+    <div class="column is-4">
+     <div class="logo">
+      <a href="/sl/">
+       <img alt="Fakulteta za matematiko in fiziko" src="/static/images/fmf-logo-sl.2c170bd17b8c.svg"/>
+      </a>
+     </div>
+    </div>
+   </div>
+   <div class="content__nav-mobile" id="menuMobile">
+    <a class="menu-mobile-close" id="menu-mobile-close">
+     ×
+    </a>
+    <div class="navbar__main">
+     <a class="navbar__item" href="/sl/studij-fizike/">
+      Študij fizike
+     </a>
+     <a class="navbar__item" href="/sl/studij-matematike/">
+      Študij matematike
+     </a>
+     <a class="navbar__item" href="/sl/raziskave/">
+      Raziskave
+     </a>
+     <a class="navbar__item" href="/sl/o-fakulteti/">
+      O fakulteti
+     </a>
+     <a class="navbar__item navbar__item--language" href="/en/">
+      EN
+     </a>
+    </div>
+    <div class="navbar__tools">
+     <a class="navbar__item" href="/sl/obvestila/koledar/">
+      Dogodki
+     </a>
+     <a class="navbar__item" href="/sl/obvestila/">
+      Obvestila
+     </a>
+     <a class="navbar__item" href="/sl/imenik/">
+      Imenik
+     </a>
+     <a class="navbar__item" href="https://urnik.fmf.uni-lj.si/">
+      Urniki
+     </a>
+     <a class="navbar__item" href="/sl/knjiznica/">
+      Knjižnica
+     </a>
+     <a class="navbar__item" href="/sl/zalozba/">
+      Založba
+     </a>
+     <a class="navbar__item" href="/sl/sodelavci/">
+      Za sodelavce
+     </a>
+     <a class="navbar__item navbar__item--search" href="/sl/iskanje/">
+      <img alt="Iskanje" src="/static/images/search.6c9017a23160.svg"/>
+     </a>
+    </div>
+   </div>
+   <div class="columns is-gapless content__main content__main--two-col">
+    <div class="column is-8">
+     <div class="content__main-body">
+      <nav aria-label="main navigation" class="navbar navbar--home is-hidden" role="navigation">
+       <div class="navbar__main">
+        <div>
+         <a class="navbar__item" href="/sl/studij-fizike/">
+          Študij fizike
+         </a>
+         <a class="navbar__item" href="/sl/studij-matematike/">
+          Študij matematike
+         </a>
+         <a class="navbar__item" href="/sl/raziskave/">
+          Raziskave
+         </a>
+         <a class="navbar__item" href="/sl/o-fakulteti/">
+          O fakulteti
+         </a>
+         <a class="navbar__item navbar__item--language" href="/en/">
+          EN
+         </a>
+        </div>
+       </div>
+       <div class="navbar__tools">
+        <div>
+         <a class="navbar__item" href="/sl/obvestila/koledar/">
+          Dogodki
+         </a>
+         <a class="navbar__item" href="/sl/obvestila/">
+          Obvestila
+         </a>
+         <a class="navbar__item" href="/sl/imenik/">
+          Imenik
+         </a>
+         <a class="navbar__item" href="https://urnik.fmf.uni-lj.si/">
+          Urniki
+         </a>
+         <a class="navbar__item" href="/sl/knjiznica/">
+          Knjižnica
+         </a>
+         <a class="navbar__item" href="/sl/zalozba/">
+          Založba
+         </a>
+         <a class="navbar__item" href="/sl/sodelavci/">
+          Za sodelavce
+         </a>
+         <a class="navbar__item navbar__item--search" href="/sl/iskanje/">
+          <img alt="Iskanje" src="/static/images/search.6c9017a23160.svg"/>
+         </a>
+        </div>
+       </div>
+      </nav>
+      <div class="content__main--left">
+       <div class="container">
+        <h1>
+         Zaposlitveni oglasi
+         <a href="/sl/obvestila/agregator/rss/161/">
+          <i class="icon" data-feather="rss">
+          </i>
+         </a>
+        </h1>
+        <div class="news-grid-listing">
+         <div class="news-aggregator-listing">
+          <a class="news__item news__item--news" href="/sl/obvestila/obvestilo/34837/sava-re/">
+           <div class="news__item-title">
+            Sava Re
+           </div>
+           <div class="news__item-blurb">
+            Strokovni sodelavec za pozavarovanje (študentsko delo, rok za prijavo 5. marec 2021)
+           </div>
+           <div class="news__item-info">
+            <div class="news__item-source">
+             Zaposlitveni oglas
+            </div>
+            <div class="news__item-date">
+             24. 2. 2021
+            </div>
+           </div>
+          </a>
+          <a class="news__item news__item--news" href="/sl/obvestila/obvestilo/34836/bv-financna-skupina/">
+           <div class="news__item-title">
+            BV Finančna Skupina
+           </div>
+           <div class="news__item-blurb">
+            Finančni analitik (študentsko delo ali redna zaposlitev, rok za prijavo 15. marec 2021)
+           </div>
+           <div class="news__item-info">
+            <div class="news__item-source">
+             Zaposlitveni oglas
+            </div>
+            <div class="news__item-date">
+             24. 2. 2021
+            </div>
+           </div>
+          </a>
+          <a class="news__item news__item--news" href="/sl/obvestila/obvestilo/34830/spica-international/">
+           <div class="news__item-title">
+            Špica international
+           </div>
+           <div class="news__item-blurb">
+            Programer v ekipi MyHours (študentsko delo, rok za prijavo 12. marec 2021)
+           </div>
+           <div class="news__item-info">
+            <div class="news__item-source">
+             Zaposlitveni oglas
+            </div>
+            <div class="news__item-date">
+             17. 2. 2021
+            </div>
+           </div>
+          </a>
+          <a class="news__item news__item--news" href="/sl/obvestila/obvestilo/34827/go-instrukcije/">
+           <div class="news__item-title">
+            GO inštrukcije
+           </div>
+           <div class="news__item-blurb">
+            Inštruktor (študentsko delo, rok za prijavo 1. marec 2021)
+           </div>
+           <div class="news__item-info">
+            <div class="news__item-source">
+             Zaposlitveni oglas
+            </div>
+            <div class="news__item-date">
+             15. 2. 2021
+            </div>
+           </div>
+          </a>
+          <a class="news__item news__item--news" href="/sl/obvestila/obvestilo/34824/rubikon/">
+           <div class="news__item-title">
+            Rubikon
+           </div>
+           <div class="news__item-blurb">
+            Sistemski administrator (redna zaposlitev, rok za prijavo 28. februar 2021)
+           </div>
+           <div class="news__item-info">
+            <div class="news__item-source">
+             Zaposlitveni oglas
+            </div>
+            <div class="news__item-date">
+             12. 2. 2021
+            </div>
+           </div>
+          </a>
+          <a class="news__item news__item--news" href="/sl/obvestila/obvestilo/34822/petrol/">
+           <div class="news__item-title">
+            Petrol
+           </div>
+           <div class="news__item-blurb">
+            Kvantitativni analitik (redna zaposlitev, rok za prijavo 28. februar 2021)
+           </div>
+           <div class="news__item-info">
+            <div class="news__item-source">
+             Zaposlitveni oglas
+            </div>
+            <div class="news__item-date">
+             11. 2. 2021
+            </div>
+           </div>
+          </a>
+          <a class="news__item news__item--news" href="/sl/obvestila/obvestilo/34821/hse/">
+           <div class="news__item-title">
+            HSE
+           </div>
+           <div class="news__item-blurb">
+            Programer, trgovec, analitik (študentsko delo, rok za prijavo 28. februar 2021)
+           </div>
+           <div class="news__item-info">
+            <div class="news__item-source">
+             Zaposlitveni oglas
+            </div>
+            <div class="news__item-date">
+             11. 2. 2021
+            </div>
+           </div>
+          </a>
+          <a class="news__item news__item--news" href="/sl/obvestila/obvestilo/34820/5element/">
+           <div class="news__item-title">
+            5Element
+           </div>
+           <div class="news__item-blurb">
+            Podatkovni znanstvenik (študentsko delo ali redna zaposlitev, rok za prijavo 12. marec 2021)
+           </div>
+           <div class="news__item-info">
+            <div class="news__item-source">
+             Zaposlitveni oglas
+            </div>
+            <div class="news__item-date">
+             11. 2. 2021
+            </div>
+           </div>
+          </a>
+          <a class="news__item news__item--news" href="/sl/obvestila/obvestilo/34808/labena/">
+           <div class="news__item-title">
+            Labena
+           </div>
+           <div class="news__item-blurb">
+            Bioinformatik / podatkovni analitik (redna zaposlitev, rok za prijavo 17. februar 2021)
+           </div>
+           <div class="news__item-info">
+            <div class="news__item-source">
+             Zaposlitveni oglas
+            </div>
+            <div class="news__item-date">
+             9. 2. 2021
+            </div>
+           </div>
+          </a>
+          <a class="news__item news__item--news" href="/sl/obvestila/obvestilo/34807/lek/">
+           <div class="news__item-title">
+            Lek
+           </div>
+           <div class="news__item-blurb">
+            Analitik v oddelku Nagrajevanja (študentsko delo, rok za prijavo 28. februar 2021)
+           </div>
+           <div class="news__item-info">
+            <div class="news__item-source">
+             Zaposlitveni oglas
+            </div>
+            <div class="news__item-date">
+             9. 2. 2021
+            </div>
+           </div>
+          </a>
+          <a class="news__item news__item--news" href="/sl/obvestila/obvestilo/34796/kpmg-poslovno-svetovanje/">
+           <div class="news__item-title">
+            KPMG poslovno svetovanje
+           </div>
+           <div class="news__item-blurb">
+            Delo na področju finančnega svetovanja (študentsko delo ali redna zaposlitev, rok za prijavo 12. februar 2021)
+           </div>
+           <div class="news__item-info">
+            <div class="news__item-source">
+             Zaposlitveni oglas
+            </div>
+            <div class="news__item-date">
+             5. 2. 2021
+            </div>
+           </div>
+          </a>
+          <a class="news__item news__item--news" href="/sl/obvestila/obvestilo/34795/in516ht/">
+           <div class="news__item-title">
+            In516ht
+           </div>
+           <div class="news__item-blurb">
+            SQL Junior navdušenec (redna zaposlitev, razpis zaključen)
+           </div>
+           <div class="news__item-info">
+            <div class="news__item-source">
+             Zaposlitveni oglas
+            </div>
+            <div class="news__item-date">
+             5. 2. 2021
+            </div>
+           </div>
+          </a>
+          <a class="news__item news__item--news" href="/sl/obvestila/obvestilo/34794/in516ht/">
+           <div class="news__item-title">
+            In516ht
+           </div>
+           <div class="news__item-blurb">
+            Poslovni analitik (redna zaposlitev, razpis zaključen)
+           </div>
+           <div class="news__item-info">
+            <div class="news__item-source">
+             Zaposlitveni oglas
+            </div>
+            <div class="news__item-date">
+             5. 2. 2021
+            </div>
+           </div>
+          </a>
+          <a class="news__item news__item--news" href="/sl/obvestila/obvestilo/34790/fribourg-university-switzerland/">
+           <div class="news__item-title">
+            Fribourg University, Switzerland
+           </div>
+           <div class="news__item-blurb">
+            PhD position in Soft Matter and Photonics (regular employment, application deadline February 28, 2021)
+           </div>
+           <div class="news__item-info">
+            <div class="news__item-source">
+             Zaposlitveni oglas
+            </div>
+            <div class="news__item-date">
+             1. 2. 2021
+            </div>
+           </div>
+          </a>
+          <a class="news__item news__item--news" href="/sl/obvestila/obvestilo/34789/src-infonet/">
+           <div class="news__item-title">
+            SRC Infonet
+           </div>
+           <div class="news__item-blurb">
+            .NET (C#) razvojnik (redna zaposlitev, rok za prijavo 1. marec 2021)
+           </div>
+           <div class="news__item-info">
+            <div class="news__item-source">
+             Zaposlitveni oglas
+            </div>
+            <div class="news__item-date">
+             1. 2. 2021
+            </div>
+           </div>
+          </a>
+          <a class="news__item news__item--news" href="/sl/obvestila/obvestilo/34788/zavarovalnica-triglav/">
+           <div class="news__item-title">
+            Zavarovalnica Triglav
+           </div>
+           <div class="news__item-blurb">
+            Aktuarji ali analitiki (redna zaposlitev, rok za prijavo 11. februar 2021)
+           </div>
+           <div class="news__item-info">
+            <div class="news__item-source">
+             Zaposlitveni oglas
+            </div>
+            <div class="news__item-date">
+             1. 2. 2021
+            </div>
+           </div>
+          </a>
+          <a class="news__item news__item--news" href="/sl/obvestila/obvestilo/34781/slovenski-drzavni-holding/">
+           <div class="news__item-title">
+            Slovenski državni holding
+           </div>
+           <div class="news__item-blurb">
+            Podatkovni analitik (študentsko delo, rok za prijavo 10. februar 2021)
+           </div>
+           <div class="news__item-info">
+            <div class="news__item-source">
+             Zaposlitveni oglas
+            </div>
+            <div class="news__item-date">
+             28. 1. 2021
+            </div>
+           </div>
+          </a>
+          <a class="news__item news__item--news" href="/sl/obvestila/obvestilo/34780/b2-bi/">
+           <div class="news__item-title">
+            B2 BI
+           </div>
+           <div class="news__item-blurb">
+            BI analitik (študentsko delo ali redna zaposlitev, rok za prijavo 19. februar 2021)
+           </div>
+           <div class="news__item-info">
+            <div class="news__item-source">
+             Zaposlitveni oglas
+            </div>
+            <div class="news__item-date">
+             28. 1. 2021
+            </div>
+           </div>
+          </a>
+          <a class="news__item news__item--news" href="/sl/obvestila/obvestilo/34778/tehniski-muzej-slovenije/">
+           <div class="news__item-title">
+            Tehniški muzej Slovenije
+           </div>
+           <div class="news__item-blurb">
+            Kustos (zaposlitev za določen čas, rok za prijavo 5.2.2021)
+           </div>
+           <div class="news__item-info">
+            <div class="news__item-source">
+             Zaposlitveni oglas
+            </div>
+            <div class="news__item-date">
+             27. 1. 2021
+            </div>
+           </div>
+          </a>
+          <a class="news__item news__item--news" href="/sl/obvestila/obvestilo/34777/sensum/">
+           <div class="news__item-title">
+            Sensum
+           </div>
+           <div class="news__item-blurb">
+            Razvijalec algoritmov (redna zaposlitev, rok za prijavo 1. marec 2021)
+           </div>
+           <div class="news__item-info">
+            <div class="news__item-source">
+             Zaposlitveni oglas
+            </div>
+            <div class="news__item-date">
+             27. 1. 2021
+            </div>
+           </div>
+          </a>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="column is-4 content__sidebar">
+     <div class="logo logo--home is-hidden">
+      <img alt="Fakulteta za matematiko in fiziko" src="/static/images/fmf-logo-home-sl.6b1422f931da.svg"/>
+     </div>
+     <div class="sidebar-container">
+      <div class="subscribe">
+       <h5>
+        Naročanje na obvestila
+       </h5>
+       <p>
+        Vpišite elektronski naslov, na katerega želite prejemati obvestila:
+       </p>
+       <form action="/sl/obvestila/narocanje/" method="POST" novalidate="">
+        <input name="csrfmiddlewaretoken" type="hidden" value="SB51sV4O8aRN47kC7gqCRy7uE0pvZ11P2o7axk6UE6E7mo5T9qTkLH82FyOmB5xG"/>
+        <div class="field has-addons">
+         <p class="control">
+          <input class="input" name="email" placeholder="E-pošta" type="text"/>
+         </p>
+         <p class="control">
+          <input class="button is-primary" type="submit" value="Naroči"/>
+         </p>
+        </div>
+       </form>
+      </div>
+     </div>
+    </div>
+   </div>
+   <div class="column column--no-padding is-12">
+    <nav aria-label="pagination" class="pagination is-centered" role="navigation">
+     <ul class="pagination-list">
+      <li>
+       <a class="pagination-link is-current" href="?page=1">
+        1
+       </a>
+      </li>
+      <li>
+       <a class="pagination-link" href="?page=2">
+        2
+       </a>
+      </li>
+      <li>
+       <a class="pagination-link" href="?page=3">
+        3
+       </a>
+      </li>
+      <li>
+       <a class="pagination-link" href="?page=4">
+        4
+       </a>
+      </li>
+      <li>
+       <a class="pagination-link" href="?page=5">
+        5
+       </a>
+      </li>
+      <li>
+       <a class="pagination-link" href="?page=6">
+        …
+       </a>
+      </li>
+      <li>
+       <a class="pagination-link" href="?page=2">
+        <i aria-hidden="true" data-feather="chevron-right">
+        </i>
+       </a>
+      </li>
+     </ul>
+    </nav>
+   </div>
+  </main>
+  <footer>
+   <div class="container is-fluid">
+    <div class="columns is-multiline is-mobile">
+     <div class="column is-6-mobile is-3-tablet">
+      <p>
+       Fakulteta za matematiko in fiziko
+       <br/>
+       Jadranska ulica 19
+       <br/>
+       1000 Ljubljana
+      </p>
+      <p>
+       01 476 6500
+       <br/>
+       <a class="email" href="mailto:fmf@fmf.uni-lj.si">
+        fmf@fmf.uni-lj.si
+       </a>
+      </p>
+     </div>
+     <div class="column is-6-mobile is-3-tablet">
+      <ul>
+       <li>
+        <a href="/sl/studij-fizike/">
+         Študij fizike
+        </a>
+       </li>
+       <li>
+        <a href="/sl/studij-matematike/">
+         Študij matematike
+        </a>
+       </li>
+       <li>
+        <a href="/sl/raziskave/">
+         Raziskave
+        </a>
+       </li>
+      </ul>
+     </div>
+     <div class="column is-6-mobile is-3-tablet">
+      <ul>
+       <li>
+        <a href="/sl/o-fakulteti/">
+         O fakulteti
+        </a>
+       </li>
+       <li>
+        <a href="/sl/knjiznica/">
+         Knjižnica
+        </a>
+       </li>
+       <li>
+        <a href="/sl/racunalniski-center/">
+         Računalniški center
+        </a>
+       </li>
+      </ul>
+     </div>
+     <div class="column is-6-mobile is-3-tablet">
+      <ul>
+       <li>
+        <a href="/sl/o-fakulteti/kontakti/">
+         Kontakti
+        </a>
+       </li>
+       <li>
+        <a href="/sl/imenik/">
+         Imenik
+        </a>
+       </li>
+      </ul>
+     </div>
+    </div>
+    <div class="columns is-mobile social-legal">
+     <div class="column is-3 social">
+      <a href="https://www.facebook.com/fmf.ul" target="_blank">
+       <img alt="FMF on Facebook" src="/static/images/facebook.88c0686fb7c2.svg"/>
+      </a>
+      <a href="https://twitter.com/fmf_ul" target="_blank">
+       <img alt="FMF on Twitter" src="/static/images/twitter.2955fd421609.svg"/>
+      </a>
+     </div>
+     <div class="column is-6 copyright">
+      © Fakulteta za matematiko in fiziko
+     </div>
+     <div class="column is-3 legal">
+      <ul>
+       <li>
+        <a href="/sl/piskotki/">
+         Piškotki
+        </a>
+       </li>
+      </ul>
+      <ul>
+       <li>
+        <a href="https://www.uni-lj.si/">
+         Univerza v Ljubljani
+        </a>
+       </li>
+      </ul>
+     </div>
+    </div>
+   </div>
+  </footer>
+  <script>
+   LANGUAGE_CODE = "sl"
+  </script>
+  <script src="/sl/jsi18n/">
+  </script>
+  <script src="/static/frontend/main.99ed511ca0e2.js">
+  </script>
+  <script async="" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
+ </body>
+</html>
