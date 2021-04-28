@@ -3,19 +3,26 @@ Service setup guide
 
 ## Service configuration
 
-Prepare files:
-1. $ mkdir -p ~/.config/systemd/user
-2. $ mv ticker_service ~/.config/user/ticker.service
+### Prepare files:
+```shell
+mv .config ~/
+```
 
-Run services:<br/>
-3. $ systemctl --user enable ticker_service<br/>
-4. $ systemctl --user daemon-reload<br/>
-5. $ systemctl --user start ticker_service<br/>
-6. Do the same for other user services.<br/>
+### Run services:<br/>
+```shell
+systemctl --user enable placeHolder.service
+systemctl --user daemon-reload
+systemctl --user start placeHolder.service
+```
+Do the same for other user services.
 
-Set persistence after user logout:<br/>
-7. $ sudo loginctl enable-linger $USER<br/>
+#### Set persistence after user logout:
+```shell
+sudo loginctl enable-linger $USER
+```
 
-Useful commands:<br/>
-1. $ systemctl status some_service<br/>
-2. $ journalctl --user-unit some_service<br/>
+## Useful commands:
+```shell
+systemctl status anyName.service
+journalctl --user-unit anyName.service
+```
